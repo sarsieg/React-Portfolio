@@ -20,6 +20,7 @@ class About extends Component {
                     data.ShowAboutImage ? < img src = { data.aboutImage }
                     alt = 'about image' > < /img> : null} <
                         /div>);
+
                 }
             }
 

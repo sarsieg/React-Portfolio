@@ -6,6 +6,7 @@ class Contact extends Component {
     state = {}
     render() {
         return ( < div >
+
             <
             h1 >
             <
