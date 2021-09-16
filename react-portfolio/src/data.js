@@ -43,17 +43,26 @@ export default {
         },
         {
             id: 5,
-            title: 'Food Finders',
-            service: 'Helping you choose your next meal',
+            title: 'Password Generator',
+            service: 'Application used to generate a random and secure passwork for the user.',
             imageSrc: '',
-            url: 'https://claholla.github.io/Food-Finders/'
+            url: 'https://sarsieg.github.io/Password-Generator/'
         },
         {
             id: 6,
-            title: 'Food Finders',
-            service: 'Helping you choose your next meal',
+            title: 'Coding Quiz',
+            service: 'Applicate put together using Javascript, CSS and HTML to produce a quiz with questions as well as gather data to gener a score. This application also includes a list of save information from other highscores.',
             imageSrc: '',
-            url: 'https://claholla.github.io/Food-Finders/'
+            url: 'https://sarsieg.github.io/Web-APIs-Code-Quiz/'
         },
+    ],
+    social: [{
+            name: 'Github',
+            url: 'https://github.com/sarsieg'
+        },
+        {
+            name: 'Linkedin',
+            url: 'https://www.linkedin.com/in/sarah-siegel-a68191204/'
+        }
     ]
 }
