@@ -29,17 +29,17 @@ export default {
         },
         {
             id: 3,
-            title: 'Food Finders',
-            service: 'Helping you choose your next meal',
+            title: 'Ho[w]asit',
+            service: 'Reviews from those you trust',
             imageSrc: '',
-            url: 'https://claholla.github.io/Food-Finders/'
+            url: 'https://how-was-it.herokuapp.com/'
         },
         {
             id: 4,
-            title: 'Food Finders',
-            service: 'Helping you choose your next meal',
+            title: 'Express Note Taker',
+            service: 'Express.js based note app that is able to create, save and delete new and exisiting notes.',
             imageSrc: '',
-            url: 'https://claholla.github.io/Food-Finders/'
+            url: 'https://sarah-express-note-taker.herokuapp.com/'
         },
         {
             id: 5,
