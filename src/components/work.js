@@ -13,9 +13,13 @@ class Work extends Component {
             <div className='work-content'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
+
                     title = {project.title}
+
                     service = {project.service}
+
                     imageSrc = {project.imageSrc}
+                    
                     url = {project.url}
                     ></Project>                ))}
             </div>

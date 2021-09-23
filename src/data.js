@@ -8,7 +8,7 @@ export default {
     ],
 
     contactEmail: 'sarah.ac.siegel@gmail.com',
-    resume: '',
+    resume: '../src/pdf/Resume.pdf',
     abouttext: "I am a fast learner and a hard worker who is passonate about developing full stack web programs that are not only visually appealing but are also fully functional applications.",
     aboutImage: '',
     ShowAboutImage: true,
@@ -17,7 +17,7 @@ export default {
             id: 1,
             title: 'Food Finders',
             service: 'Helping you choose your next meal',
-            imageSrc: '',
+            imageSrc: '../foodfinders.png',
             url: 'https://claholla.github.io/Food-Finders/'
         },
         {
@@ -31,7 +31,7 @@ export default {
             id: 3,
             title: 'Ho[w]asit',
             service: 'Reviews from those you trust',
-            imageSrc: '',
+            imageSrc: './images/howasit1.jpg',
             url: 'https://how-was-it.herokuapp.com/'
         },
         {

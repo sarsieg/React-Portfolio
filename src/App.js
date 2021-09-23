@@ -6,6 +6,7 @@ import About from './components/About';
 import Work from './components/work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import background from './images/bg1.png';
 
 function App() {
   return (
@@ -25,13 +26,16 @@ function App() {
     //       <Contact></Contact>
     //     </div>
     //     </div>
-    <>
+    <div style= {{
+      backgroundImage: `url(${background})`
+    }}>
       <Navbar/>
       <Header/>
       <About/>
       <Work/>
+      <Contact/>
       {/* <Contact/> */}
-    </>
+    </div>
   );
 }
 

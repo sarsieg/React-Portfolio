@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
+import banner from '../images/banner.jpg';
 
 class Header extends Component {
     state = {}
@@ -9,6 +10,7 @@ class Header extends Component {
         return (<div>
             <h1 className='heading-background'>S SIEGEL</h1>
             <header>
+            <img src={banner} alt='cactus'></img>
                 <h1>
                     <Fade bottom cascade>{data.name}</Fade>
                 </h1>
@@ -22,6 +24,7 @@ class Header extends Component {
                     <button><a href={`${data.resume}`} rel="noopener noreferrer" >Resume</a></button>
                 </p>
             </Fade>
+            
         </div>);
     }
 }
