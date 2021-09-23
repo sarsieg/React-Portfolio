@@ -9,21 +9,21 @@ export default {
 
     contactEmail: 'sarah.ac.siegel@gmail.com',
     resume: '../src/pdf/Resume.pdf',
-    abouttext: "I am a fast learner and a hard worker who is passonate about developing full stack web programs that are not only visually appealing but are also fully functional applications.",
+    abouttext: "I am a 24 year old living in Minnesota who is currently working as a server while studying web development at the University of Minnesota. I have been working since I was 15 years old and have a dedicated learner my whole life. I am looking to expand my knowledge in web development and am currently looking for a job within the web developing field.",
     aboutImage: '',
     ShowAboutImage: true,
 
     projects: [{
             id: 1,
             title: 'Food Finders',
-            service: 'Helping you choose your next meal',
+            service: 'This application allows the user to search a server-side database (through Edamam) for both food and drink recipes through another server-side API.',
             imageSrc: '../foodfinders.png',
             url: 'https://claholla.github.io/Food-Finders/'
         },
         {
             id: 2,
             title: 'Weather App',
-            service: 'Application showing you weather updates and forecasts',
+            service: 'When creating this app my motivation was to showcase the power and amazing things that server-side APIs, Javascript, Bootstrap, CSS and HTML have when working together. You can connect so many different sources of information to run through your site, the options are endless.',
             imageSrc: '',
             url: 'https://sarsieg.github.io/Weather-Dashboard/'
         },

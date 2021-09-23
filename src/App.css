@@ -6,13 +6,13 @@ body{
   background-image: url("./bg1.png")
 } */
 
-/* body{
+body{
   font-size: 16px;
   background-image: ('src/images/bg1.png');
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   z-index: 1;
-} */
+}
 /* 
 .App {
   text-align: center;
@@ -51,3 +51,114 @@ body{
     transform: rotate(360deg);
   }
 } */
+
+nav {
+  position: fixed;
+  left: 60em;
+  top: 6em;
+  z-index: 100;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  top: 4em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header h1{
+  font-size: 1em;
+  font-weight: 400;
+  padding: 2em;
+  margin-right: 50em;
+} */
+header h1{
+  margin-top: 1%;
+}
+
+.heading-background {
+  position: fixed;
+  opacity: .05;
+  font-size: 25em;
+  left: -.2em;
+  top: -.5em;
+  z-index: -100;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav li .link{
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  opacity: .5;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+
+}
+
+li .link:hover{
+  opacity: 1;
+}
+.active {
+  color: black;
+  opacity: 1;
+}
+
+.header-title button{
+  background: rgb(143, 137, 137);
+  border: 0px;
+  padding: 1em 3em;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+.header-title button:hover{
+  opacity: .8;
+}
+
+.header-title button a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-title {
+  position: relative;
+  font-size: 3em;
+  text-align: left;
+  
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-content{
+  position: relative;
+  left: 15em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
