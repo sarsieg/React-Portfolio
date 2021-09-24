@@ -30,28 +30,28 @@ export default {
         {
             id: 3,
             title: 'Ho[w]asit',
-            service: 'Reviews from those you trust',
+            service: 'This application allows users to log into Ho[w]asit using an authentication process with a personal email and password. Also allows users to see other users posts and reviews of different movie/tv shows as well as allows them to log out so their account is no longer accessible.',
             imageSrc: './images/howasit1.jpg',
             url: 'https://how-was-it.herokuapp.com/'
         },
         {
             id: 4,
             title: 'Express Note Taker',
-            service: 'Express.js based note app that is able to create, save and delete new and exisiting notes.',
+            service: 'This project creates a simple Express.js based note app this is able to create, save and delete new notes and exisiting ones. This application uses an express backend and can save and retrieve note data from a JSON file.',
             imageSrc: '',
             url: 'https://sarah-express-note-taker.herokuapp.com/'
         },
         {
             id: 5,
             title: 'Password Generator',
-            service: 'Application used to generate a random and secure passwork for the user.',
+            service: 'This application is being used to generate a random and secure password for a user by using Javascript. In this project HTML, CSS and Javascript was used to create a random password generate and shows how the use of Javascript can make changes to an HTML document. I built this project to show the power of Javascript and the uses it has when linked with CSS and HTML. It solves problems such as user input and uses variables to generate passwords.',
             imageSrc: '',
             url: 'https://sarsieg.github.io/Password-Generator/'
         },
         {
             id: 6,
             title: 'Coding Quiz',
-            service: 'Applicate put together using Javascript, CSS and HTML to produce a quiz with questions as well as gather data to gener a score. This application also includes a list of save information from other highscores.',
+            service: 'Applicate put together using Javascript, CSS and HTML to produce a quiz with questions as well as gather data to gener a score. This application also includes a list of save information from other highscores. As well as the dynamic changes that Javascript can have on a HTML document and utilizes the use of appending HTML pages.',
             imageSrc: '',
             url: 'https://sarsieg.github.io/Web-APIs-Code-Quiz/'
         },

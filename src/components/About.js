@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
-import me from '../images/me.jpg'
+import me from '../images/sarahs.jpg'
+
 
 class About extends Component {
     state = {}
@@ -9,7 +10,7 @@ class About extends Component {
             return ( 
             <div className = 'about' >
                 <div className = 'about-content'>
-                <h1> <Fade bottom cascade> About. </Fade></h1>
+                <h1> <Fade bottom cascade> About Me </Fade></h1>
                 <Fade bottom>
                 <p> { data.abouttext } </p> 
                 </Fade> 

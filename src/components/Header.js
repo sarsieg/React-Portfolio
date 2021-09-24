@@ -12,7 +12,7 @@ class Header extends Component {
             <header>
             <img src={banner} alt='cactus'></img>
                 <h1>
-                    <Fade bottom cascade>{data.name}</Fade>
+                    {/* <Fade bottom cascade>{data.name}</Fade> */}
                 </h1>
             </header>
             <Fade bottom>
@@ -30,3 +30,5 @@ class Header extends Component {
 }
 
 export default Header;
+
+// {`${data.resume}`}

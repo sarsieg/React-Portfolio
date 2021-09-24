@@ -8,7 +8,7 @@ class Contact extends Component {
         return ( <div>
 
             <h1>
-            <Fade bottom cascade>Contact.</Fade>
+            <Fade bottom cascade>Contact</Fade>
             </h1>
             <Fade bottom>
                 <div className = 'contact-content'>
@@ -24,6 +24,24 @@ class Contact extends Component {
                 </ul> 
                 </div> 
                 </Fade>
+
+                <div className="myForm">
+            <form id="email-form" action="https://formspress.io/xknqqwdl" method="POST">
+                <div className="form-group">
+                    <label for="form-name">Name</label>
+                    <input type="text" name="name" className="form-control" id="form-name"  placeholder="Your Name"></input>
+                </div>
+                <div className="form-group">
+                    <label for="form-email">Email</label>
+                    <input type="email" name="replyEmail" className="form-control" id="form-email" placeholder="email@you.com"></input>
+                </div><div className="form-group">
+                    <label for="message">Message</label>
+                    <textarea className="form-control" name="messageBody" id="form-body" rows="3"></textarea>
+                </div>
+            </form>
+            <center><button type="submit" className="btn btn-secondary btn-sm" id="submit">SUBMIT</button></center>
+            <p id="form-status"></p>
+        </div>
 
             <span className = 'footer' > React Website Design < a href = "https://sarsieg.github.io/Finalized-Professional-Portfolio/" > Sarah's Original Website</a></span> </div>);
         }

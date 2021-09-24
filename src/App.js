@@ -7,6 +7,7 @@ import Work from './components/work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import background from './images/bg1.png';
+import Project from './components/project';
 
 function App() {
   return (
@@ -28,12 +29,17 @@ function App() {
     //     </div>
     <div style= {{
       backgroundImage: `url(${background})`
-    }}>
+    }}> 
       <Navbar/>
       <Header/>
       <About/>
+      <div class="work">
       <Work/>
+      </div>
+      <Project/>
+      <div class="contact">
       <Contact/>
+      </div>
       {/* <Contact/> */}
     </div>
   );
