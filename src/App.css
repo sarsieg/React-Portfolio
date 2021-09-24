@@ -219,6 +219,9 @@ li .link:hover{
   font-size: 2em;
 }
 
+.project {
+  display: block;
+}
 .contact li {
   background-image: ('src/images/bg1.png');
   display: inline-block;
@@ -303,11 +306,11 @@ img {
      align-items: flex-start;
    }
 
-   .work .work-content{
-     display:grid;
+   /* .work .work-content{
+     display: block;
      grid-template-columns: 1fr;
      grid-gap: 5em;
-   }
+   } */
 
 .contact {
   width: 15em;
