@@ -1,3 +1,4 @@
+
 export default {
 
     name: 'Sarah Siegel',
@@ -51,7 +52,7 @@ export default {
         {
             id: 6,
             title: 'Coding Quiz',
-            service: 'Applicate put together using Javascript, CSS and HTML to produce a quiz with questions as well as gather data to gener a score. This application also includes a list of save information from other highscores. As well as the dynamic changes that Javascript can have on a HTML document and utilizes the use of appending HTML pages.',
+            service: 'Applicate put together using Javascript, CSS and HTML to produce a quiz with questions as well as gather data to gener a score. This application also includes a list of save information from other highscores. ',
             imageSrc: '',
             url: 'https://sarsieg.github.io/Web-APIs-Code-Quiz/'
         },
@@ -66,3 +67,5 @@ export default {
         }
     ]
 }
+
+

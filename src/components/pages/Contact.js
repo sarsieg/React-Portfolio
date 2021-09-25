@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
-import data from '../data';
+import React from 'react';
+import data from '../../data'
 
-class Contact extends Component {
-    state = {  }
-    render() {
-        return ( <div>
+export default function Contact() {
+  return (
+    <div>
 
             <h1>
-            <Fade bottom cascade>Contact</Fade>
+            Contact
             </h1>
-            <Fade bottom>
+            
                 <div className = 'contact-content'>
                     <a href = { `mailto:${data.contactEmail}` }
             className = 'email'>{data.contactEmail}</a>
@@ -23,7 +21,7 @@ class Contact extends Component {
                 ))} 
                 </ul> 
                 </div> 
-                </Fade>
+                
 
                 <div className="myForm">
             <form id="email-form" action="https://formspress.io/xknqqwdl" method="POST">
@@ -44,7 +42,21 @@ class Contact extends Component {
         </div>
 
             <span className = 'footer' > React Website Design < a href = "https://sarsieg.github.io/Finalized-Professional-Portfolio/" > Sarah's Original Website</a></span> </div>);
-        }
-    }
-
-    export default Contact;
+    // <div>
+    //   <h1>Contact Page</h1>
+    //   <p>
+    //     Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
+    //     molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
+    //     magna a ultrices. Aenean pellentesque placerat lacus imperdiet
+    //     efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
+    //     mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
+    //     posuere, eget tristique dui dapibus. Maecenas fermentum elementum
+    //     faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
+    //     ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
+    //     dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
+    //     conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
+    //     rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+    //   </p>
+    // </div>
+  ;
+}
